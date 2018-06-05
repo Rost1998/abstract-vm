@@ -14,7 +14,6 @@ Operand<T>::Operand()
 template <class T>
 Operand<T>::Operand(T value, eOperandType type, int prec)
 		: _value(value),
-		  _str_value(str_value),
 		  _type(type),
 		  _prec(prec)
 { _str_value = std::to_string(value); }

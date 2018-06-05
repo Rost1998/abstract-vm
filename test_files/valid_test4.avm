@@ -1,5 +1,5 @@
 push float(42.001)
-push float(42.00100000000001) ;asdasdasd
+push float(42.0011000000000) ;asdasdasd
 dump
 assert float(42.001);asda sdadasd
 exit
